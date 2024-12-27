@@ -1,30 +1,28 @@
 # Person_Counting_with_OpenCV
 
-# Object Counting with YOLO and OpenCV
-
-Ce projet utilise un modèle de détection d'objets pré-entraîné YOLO (You Only Look Once) et la bibliothèque OpenCV pour compter les personnes dans une vidéo en fonction d'une zone définie.
+This project uses a pre-trained YOLO (You Only Look Once) object detection model and the OpenCV library to count people in a video based on a defined region.
 
 ## Description
 
-Le but de ce projet est de détecter et compter les personnes qui entrent et sortent d'une zone délimitée dans une vidéo. Le projet utilise le modèle YOLOv5 (version 11n) de la bibliothèque `ultralytics` pour la détection des objets (ici, les personnes). Les résultats du comptage sont affichés en temps réel sur chaque frame de la vidéo.
+The goal of this project is to detect and count people entering and exiting a defined region in a video. The project uses the YOLOv5 (version 11n) model from the `ultralytics` library for object detection (in this case, people). The counting results are displayed in real-time on each frame of the video.
 
-### Fonctionnalités
+### Features
 
-- Détection des personnes dans une vidéo.
-- Comptage des personnes entrant et sortant d'une région définie.
-- Affichage en temps réel du nombre de personnes à l'intérieur de la zone sur chaque frame de la vidéo.
-- Exportation de la vidéo traitée avec les annotations.
+- Detection of people in a video.
+- Counting people entering and exiting a defined region.
+- Real-time display of the number of people inside the region on each frame of the video.
+- Exporting the processed video with annotations.
 
-## Prérequis
+## Prerequisites
 
-Avant de lancer le projet, assurez-vous d'avoir installé les dépendances suivantes :
+Before running the project, make sure you have the following dependencies installed:
 
 - Python 3.x
 - OpenCV
 - NumPy
-- `ultralytics` (pour utiliser YOLOv5)
+- `ultralytics` (to use YOLOv5)
 
-Vous pouvez installer les dépendances nécessaires via `pip` :
+You can install the necessary dependencies via `pip`:
 
 ```bash
 pip install opencv-python numpy ultralytics
